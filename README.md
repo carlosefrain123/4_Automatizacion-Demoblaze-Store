@@ -8,19 +8,6 @@ Proyecto de automatización de pruebas funcionales para demoblaze.com, desarroll
 - Google Chrome (última versión estable)
 - IntelliJ IDEA (opcional, recomendado)
 
-Estructura del proyecto:
-src/main/java/org/example/
-├── pages/            Page Objects (localizadores de la UI)
-└── Tasks/            Tareas del patrón Screenplay
-
-src/test/java/org/example/
-├── stepDefinition/    Step Definitions (Cucumber)
-└── RunnerTest.java    Clase runner de las pruebas
-
-src/test/resources/features/
-├── creacion_cuenta.feature
-└── proceso_compra.feature
-
 2. Cómo ejecutar las pruebas
 
 Desde IntelliJ IDEA, clic derecho sobre RunnerTest.java
